@@ -1,0 +1,171 @@
+.pagination-container {
+    margin-top: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Untuk mengatur agar item berada di tengah secara horizontal */
+    align-items: center; /* Untuk mengatur agar item berada di tengah secara vertikal */
+    gap: 5px; /* Untuk menambahkan jarak antara button */
+}
+
+.button-tmb a{
+    margin-bottom: 10px;
+}
+
+.btn-cetak {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-cetak a {
+    color: white;
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+}
+
+.logo-text {
+    font-size: 18px;
+    margin-left: 10px;
+    color: #25396F;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 5px;
+    vertical-align: top !important;
+    /* text-align: justify; */
+}
+
+.text-preview {
+    display: -webkit-box;
+    -webkit-box-orient: vertical; /* untuk menyembunyikan teks */
+    -webkit-line-clamp: 4; /* membatasi yang ditampilkan */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+:root {
+    --bs-link-color-rgb: 0, 0, 255; /* merubah hyperlink bawaan */
+    --bs-link-opacity: 1;
+}
+
+.btn-kembali {
+    background-color: #25396F; /* Warna latar belakang */
+    border-color: #25396F; /* Warna border */
+    color: white;
+}
+
+.btn-kembali:hover {
+    background-color: #3B2A91; /* Warna latar belakang saat diarahkan */
+    border-color: #3B2A91; /* Warna border saat diarahkan */
+    color: white; /* Warna teks */
+}
+
+.status-korban {
+    display: flex;
+    flex-direction: column;
+    gap: 2px; /* Jarak antar item */
+}
+
+.status-item {
+    display: flex;
+    justify-content: space-between; /* Menyusun teks dan nilai di kedua ujung */
+    align-items: center; /* Memastikan teks dan nilai berada pada satu baris */
+    padding: 5px; /* Padding untuk setiap item */
+    border-bottom: 1px solid #ccc; /* Garis horizontal */
+}
+
+.status-item:last-child {
+    border-bottom: none; /* Hilangkan garis horizontal pada item terakhir */
+}
+
+.value {
+    font-weight: bold; /* Memberi tebal pada nilai */
+}
+
+.nowrap {
+    white-space: nowrap;
+}
+
+/* css map beranda */
+#map {
+    height: 500px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.dba {
+    background: #fff;
+    border: .2vw solid #ddd;
+    border-radius: 8px;
+    bottom: 3%;
+    display: block;
+    height: 15vh;
+    left: 1%;
+    opacity: 80%;
+    padding: 1vh;
+    position: absolute;
+    width: auto;
+    z-index: 778;
+}
+.tdba {
+    margin-bottom: 10px;
+}
+.txt, .tx {
+    display: flex;
+    align-items: center;
+}
+.legend {
+    background: #fff;
+    border: .2vw solid #ddd;
+    border-radius: 8px;
+    bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    font-size: 0.6vw; /* Ukuran font dalam satuan vw */
+    position: absolute;
+    right: 1%;
+    z-index: 778;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 5px; */
+    /* padding: 5px; */
+    border-radius: 2px;
+    /* text-align: center; */
+    color: black;
+}
+.legend-item .color-box {
+    width: 18px;
+    height: 18px;
+    margin-right: 5px;
+}
+.legend-item .text {
+    flex: 1; /* Memanjangkan teks untuk mengisi sisa ruang */
+}
+.leaflet-control-layers-expanded .leaflet-control-layers-list {
+    margin-top: 10px; /* Adjust as needed */
+}
+
+.leaflet-control-layers-overlays label span.header {
+    font-weight: bold;
+    display: block;
+    margin: 5px 0 0;
+}
+/* .legend div:last-child {
+    margin-bottom: 0;
+}
+.legend div[style*="--color"] {
+    background-color: var(--color);
+} */
